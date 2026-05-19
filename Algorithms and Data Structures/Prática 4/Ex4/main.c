@@ -55,6 +55,9 @@ int main ()  {
         }
         else
             printf("Numero invalido.");
+    
+    free(lp);
+    free(lp->dados);
 
     return 0;
 }
