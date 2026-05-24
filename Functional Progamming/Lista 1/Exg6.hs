@@ -11,3 +11,10 @@ eq a b c
 
 conta :: Double->Double->Double->Int
 conta a b c = length (eq a b c)
+
+menor :: Double->Double->Double->Double
+menor a b c =
+    case eq a b c of
+        [] -> 0
+        [x] -> 0
+        [x1, x2] -> if x1<x2 then x1 else x2
