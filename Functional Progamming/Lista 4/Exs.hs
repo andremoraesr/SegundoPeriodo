@@ -35,3 +35,8 @@ distancia lista = [sqrt (x^(2 :: Int) + y^(2 :: Int)) | (x,y) <- lista]
 
 fatorial :: Integral t => t -> [t]                                   -- Ex 23
 fatorial num = [product[1..x] | x <- [1..(num-1)]]
+
+
+reverse' :: [a] -> [a] ->[a]           -- Ex25
+reverse' [] _ = []
+reverse' x y = foldl (flip(:)) [] x ++ y

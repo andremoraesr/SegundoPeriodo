@@ -16,3 +16,12 @@ palavras = segmentos isSpace
             | carac == ' ' = False
             | carac == '\t' = False
             | otherwise = True
+
+
+takewhile' :: (a->Bool)->[a]->[a]                                        --ExExtra
+takewhile' _ [] = []
+takewhile' p (x:xs)
+    | p x = x : takewhile' p xs
+    | otherwise = takewhile' p xs
+
+

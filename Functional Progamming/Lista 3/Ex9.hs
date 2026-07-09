@@ -10,7 +10,8 @@ produto = foldl (*) 1
 
 prefixo :: Eq a => [a]->[a]->Bool                                    -- Ex 21
 prefixo [] _ = True
-prefixo (x:xs) y = (x `elem` y) && prefixo xs y
+prefixo _ [] = False
+prefixo (x:xs) (y:ys) = (x == y) && prefixo xs ys
 
 sup :: (Fractional a, Ord a) => [a]->[a]                                    -- Ex 25
 sup a = (\media -> filter (> media) a) (sum a / fromIntegral(length a))
