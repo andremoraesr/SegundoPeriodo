@@ -1,0 +1,7 @@
+algoritmo;substantivo;conjunto de regras e procedimentos lógicos perfeitamente definidos que visam à solução de um problema em um número finito de etapas.
+pilha;substantivo;estrutura de dados linear em que a inserção e a remoção de elementos ocorrem na mesma extremidade, seguindo o princípio LIFO (Last In, First Out).
+ponteiro;substantivo;variável que armazena o endereço de memória de outra variável.
+lista;substantivo;coleção linear de elementos cuja ordem lógica é determinada por ponteiros ou referências.
+complexidade;substantivo;medida da quantidade de recursos (tempo ou espaço) que um algoritmo consome para executar em função do tamanho da entrada.
+matriz;substantivo;estrutura de dados bidimensional organizada em linhas e colunas.
+recursão;substantivo;método de programação no qual uma função chama a si mesma direta ou indiretamente para resolver um problema menor.

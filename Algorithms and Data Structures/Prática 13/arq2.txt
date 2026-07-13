@@ -1,0 +1,3 @@
+o algoritmo utiliza uma pilha
+a complexidade da lista dinâmica é linear
+uma matriz armazena o ponteiro do algoritmo
